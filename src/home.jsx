@@ -11,6 +11,7 @@ import {ToastsContainer, ToastsStore} from 'react-toasts'
 export default class Home extends Component{
 
     constructor(props){
+        
         super(props)
         this.state = {
             options: PlayersDAO.getAllMoreThis(['João', 'Pedro', 'Alberto', 'Henrique', 
