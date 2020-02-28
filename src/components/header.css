@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    background-color: #2b2b2b60;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: aliceblue;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+}

@@ -1,0 +1,92 @@
+.panel-generator {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.header-text-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.author {
+    display: flex;
+    flex-direction: row;
+}
+
+.author-title {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0px 20px 0px 20px;
+    align-self: flex-end;
+}
+
+.author-img > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.text-area-style {
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.btn-actions {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.btn-generate-text {
+    width: 100%;
+    margin: 10px 10px 10px 0px;
+}
+
+.btn-copy-text {
+    margin: 10px 0px 10px 0px;
+    width: 150px;
+}
+
+@media screen and (max-width: 990px) {
+    .panel-generator {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+
+    .author {
+        width: 100%;
+    }
+
+    .input-number {
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .header-text-area {
+        flex-direction: column;
+    }
+
+    .btn-actions {
+        flex-direction: column;
+    }
+
+    .btn-generate-text{
+        margin: 20px 10px 10px 0px;
+    }
+
+    .btn-copy-text {
+        width: 100%;
+    }
+}

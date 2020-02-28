@@ -1,0 +1,98 @@
+.background {
+    background-color:black;
+    height: 100vh;
+}
+
+.display-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px 0px 30px 0px;
+}
+
+.side-select {
+    align-self: flex-start;
+}
+
+.player-selected {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+.actions-generator {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0px 20px 20px 20px;
+}
+
+.input-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-number > .label {
+    color: white;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.input-number > input {
+    border-radius: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 38px;
+    width: inherit;
+    text-align: end;
+}
+
+.input-number > span {
+    padding: 0px 10px 0px 5px;
+}
+
+.input-number > input::placeholder {
+    font-size: 14px;
+    color: #00000082;
+    padding-left: 5px;
+}
+
+.m-10 {
+ margin: 10px;   
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 990px) {
+    
+    .display-flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+}
