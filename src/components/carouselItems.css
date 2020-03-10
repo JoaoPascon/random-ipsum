@@ -23,14 +23,17 @@
     height: 360px;
     overflow-y: scroll;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .option-selection{
-    margin: 5px;
+   margin: 5px;
     display: flex;
     align-items: center;
     cursor: pointer;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
 }
 
 .option-selection > img {
@@ -39,7 +42,7 @@
     border-radius: 50%;
 }
 
-.option-selection > img:hover {
+.option-selection:hover > img {
     border: 2px solid yellow;
 }
 

@@ -31,6 +31,9 @@ export default class CarouselItems extends React.Component {
                       defaultValue={item.name}
                       onClick={() => this.selectOption(item)}>
                       <img src={item.sourceImagePath} title={item.name}/>
+                      <div>
+                        <p>Meu-nome</p>                      
+                      </div>
                     </div>
             })}
             </div>

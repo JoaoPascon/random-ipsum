@@ -38,7 +38,7 @@
     background-color: black;
     border: 1px solid;
     border-color: white;
-    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .btn-actions {
@@ -59,7 +59,7 @@
 
 @media screen and (max-width: 990px) {
     .panel-generator {
-        margin-top: 10px;
+        margin-top: 40px;
     }
 }
 

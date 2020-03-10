@@ -20,11 +20,15 @@ function getRandomWord(words) {
     return words[randomPosition];
 }
 
+function getRandomSeparateWord() {
+    return ', '
+}
+
 function generateText(wordsForShuffle) {
     let text = '';
 
     while(text.length <= charactersLimit){
-        text = text.concat(getRandomWord(wordsForShuffle)).concat(' ');
+        text = text.concat(getRandomWord(wordsForShuffle)).concat(', ');
     }
 
     return text;
@@ -32,20 +36,22 @@ function generateText(wordsForShuffle) {
 
 function getText(quantity, wordsForShuffle){
     let textNumbers = 0;
-    let textTotal = '';
+    let textConcat = '';
 
     while(textNumbers < quantity){
         let textGenerate = generateText(wordsForShuffle);
-        textGenerate = upperCaseFirstLetter(textGenerate);
-        textTotal = textTotal.concat(textGenerate).concat('\n\n');
+        textConcat = textConcat.concat(formatText(textGenerate));
         textNumbers +=1;
     }
 
-    return textTotal;
+    return textConcat;
 }
 
-function upperCaseFirstLetter(words) {
-    return words.replace(/^./, words[0].toUpperCase());
+function formatText(words) {
+    return words.replace(/^./, words[0].toUpperCase())
+    .slice(0, words.length - 2).concat('.')
+    .concat('\n\n');
+
 }
 
 export default {

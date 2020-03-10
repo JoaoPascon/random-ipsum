@@ -2,7 +2,8 @@ import React from 'react'
 import './textArea.css'
 import GeneratorText from '../services/generateText'
 import {ToastsContainer, ToastsStore} from 'react-toasts';
-import Select from 'react-select'
+import Select from 'react-select';
+import RandomPathImg from '../assets/images/random_image.jpg'
 
 
 class TextArea extends React.Component {
@@ -12,21 +13,29 @@ class TextArea extends React.Component {
         this.state = {
             text: '',
             quantityParagraphs: 0,
-            author: 'Não Selecionado',
-            optionSelected: null,
-            quantityOptions: [{value: 1, label: 'Um'}, {value: 2, label: 'Dois'}, {value: 3, label: 'Três'}, 
-                {value: 4, label: 'Quatro'}, {value: 5, label: 'Cinco'}, {value: 6, label: 'Seis'}, {value: 7, label: 'Sete'},
-                {value: 8, label: 'Oito'}, {value: 9, label: 'Nove'}]
+            author: {name: 'Não selecionado', sourceImagePath: RandomPathImg},
+            optionSelected: '',
+            quantityOptions: []
         }
-        this.formatName = this.formatName.bind(this);
         this.copyText = this.copyText.bind(this);
         this.updateOption = this.updateOption.bind(this);
         this.generateText = this.generateText.bind(this);
     }
 
+    componentDidMount() {
+        this.setState({quantityOptions: [{value: 1, label: 'Um'}, {value: 2, label: 'Dois'}, {value: 3, label: 'Três'}, 
+        {value: 4, label: 'Quatro'}, {value: 5, label: 'Cinco'}, {value: 6, label: 'Seis'}, {value: 7, label: 'Sete'},
+        {value: 8, label: 'Oito'}, {value: 9, label: 'Nove'}]});
+        this.setState()
+    }
+
     componentDidUpdate(prevProps) {
         if(this.props.player !== prevProps.player){
-            this.setState({author: this.formatName()})
+            console.log(this.props.player.sourceImagePath);
+            this.setState(prevState => (
+                { author: {name: this.props.player.name || 'Não selecionado',
+                          sourceImagePath: this.props.player.sourceImagePath || RandomPathImg}
+                }))
         }        
     }
 
@@ -35,11 +44,6 @@ class TextArea extends React.Component {
         document.execCommand('copy');
         window.getSelection().removeAllRanges()
         ToastsStore.success('Texto copiado com sucesso');
-    }
-
-    formatName() {
-        
-        return this.props.player.name
     }
 
     updateOption(option) {
@@ -60,10 +64,10 @@ class TextArea extends React.Component {
                     <div className="header-text-area">
                         <div className="author">
                         <div className="author-img">
-                            <img src={this.props.player.sourceImagePath} />
+                            <img src={this.state.author.sourceImagePath} />
                         </div>
                         <div className="author-title">
-                            <span>{this.state.author}</span>
+                            <span>{this.state.author.name}</span>
                         </div>
                     </div>
                         <div className="input-number">
