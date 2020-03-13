@@ -13,7 +13,7 @@ class TextArea extends React.Component {
         this.state = {
             text: '',
             quantityParagraphs: 0,
-            author: {name: 'Não selecionado', sourceImagePath: RandomPathImg},
+            author: {name: 'Não selecionado', sourceImagePath: RandomPathImg, btnLabel: 'Gerar Texto'},
             optionSelected: '',
             quantityOptions: []
         }
@@ -31,10 +31,10 @@ class TextArea extends React.Component {
 
     componentDidUpdate(prevProps) {
         if(this.props.player !== prevProps.player){
-            console.log(this.props.player.sourceImagePath);
             this.setState(prevState => (
                 { author: {name: this.props.player.name || 'Não selecionado',
-                          sourceImagePath: this.props.player.sourceImagePath || RandomPathImg}
+                          sourceImagePath: this.props.player.sourceImagePath || RandomPathImg,
+                          btnLabel: this.props.player.btnLabel || 'Gerar Texto'}
                 }))
         }        
     }
@@ -81,7 +81,7 @@ class TextArea extends React.Component {
                     </div> 
                     <div className="btn-actions">
                         <button className="btn btn-outline-success btn-generate-text" onClick={() => this.generateText()}>
-                                <span>{this.props.player.btnLabel || 'Gerar'}</span>
+                                <span>{this.state.author.btnLabel}</span>
                         </button>
                         <button className="btn btn-outline-info btn-copy-text" onClick={(e) => this.copyText(e)}>
                         <span className="far fa-copy mr-10"></span>

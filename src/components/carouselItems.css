@@ -27,7 +27,7 @@
 }
 
 .option-selection{
-   margin: 5px;
+    margin: 0px 5px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -43,11 +43,24 @@
 }
 
 .option-selection:hover > img {
-    border: 2px solid yellow;
+    border: 3px solid yellow;
+}
+
+.option-selection:hover > .alias {
+    color: yellow;
 }
 
 .option-selection.selected > img{
-    border: 2px solid #d10000;
+    border: 3px solid #d10000;
+}
+
+.option-selection.selected > .alias {
+    color: #d10000;
+}
+
+.option-selection .alias {
+    width: 90px;
+    text-align: center;
 }
 
 @media screen and (max-width: 990px) {

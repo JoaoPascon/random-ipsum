@@ -22,7 +22,7 @@ export default class CarouselItems extends React.Component {
   render() {
         return <div className="panel-selection">
           <div className="title-options">
-            <span>Selecione o Personagem</span>
+            <span> - Selecionar Personagem - </span>
           </div>
           <div className="options">
             {this.props.items.map(item => {
@@ -31,8 +31,8 @@ export default class CarouselItems extends React.Component {
                       defaultValue={item.name}
                       onClick={() => this.selectOption(item)}>
                       <img src={item.sourceImagePath} title={item.name}/>
-                      <div>
-                        <p>Meu-nome</p>                      
+                      <div className="alias">
+                        <p>{item.alias}</p>                      
                       </div>
                     </div>
             })}
