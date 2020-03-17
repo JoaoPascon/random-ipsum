@@ -18,6 +18,12 @@ import ThiagoNevesPathImg from '../assets/images/thiago_neves.jpg'
 import WilliamBonnerPathImg from '../assets/images/william_bonner.jpg'
 import BonecoXaropinhoPathImg from '../assets/images/boneco_xaropinho.jpg'
 import YudiPlaystationPathImg from '../assets/images/yudi_playstation.jpg'
+import EtBiluPathImg from '../assets/images/et_bilu.jpg'
+import GalvaoBuenoPathImg from '../assets/images/galvao_bueno.jpg'
+import IrmaosAObraPathImg from '../assets/images/irmaos_a_obra.jpg'
+import JogadorDeLolPathImg from '../assets/images/jogador_de_lol.jpg'
+import RobertoCarlosPathImg from '../assets/images/roberto_carlos.jpg'
+import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
 import Character from '../Class/Character'
 
 const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg,
@@ -29,7 +35,11 @@ const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg,
 'foi um lindo lance', 'é não sei né', 'quero vê isso em campo'], 'Gerar o texto pô');
 
 const anaMaria = new Character(6,'Ana Maria & Louro', 'Ana&Louro', AnaMariaPathImg,
-    [''], 'Acooorda pra gerar o texto');
+    ['acoooooooooorda menina', 'meu Deus Ana Maria',
+    'solta os cachorros', 'poxa vida em Ana Maria', 'essa receita deleciosa',
+    'huuuuuuuuuuuuuuuuum', 'você gostou Louro ?', 'da um pouco pra mim Ana Maria',
+    'estou aqui com essa chef de cozinha maravilhosa', 'bom dia gente',
+    'programa ao vivo é assim mesmo', 'toma cuidado em Ana Maria'], 'Acooorda pra gerar o texto');
 
 const jaskieBardo = new Character(7,'Jaskie Bardo', 'Jaskie', JaskierBardoPathImg,
     ['toss a coin to your witcher', 'dê um trocado para seu bruxo', 'lanza una moneda a tu brujo',
@@ -96,18 +106,34 @@ const chefJacquin = new Character(2, 'Chef Jacquin', 'Jacquin', JacquinPathImg, 
             'Gera esse textu in 5 minuto');
 
 const craqueNeto = new Character(3,'Craque Neto', 'Neto', CraqueNetoPathImg,
-    ['parece que tem dois pulmão', 'vai te lasca', 'esse cabelo de boneca',
+    ['nauuuuuuuum vai da!', 'parece que tem dois pulmão', 'vai te lasca', 'esse cabelo de boneca',
             'eu não jogo mais', 'digasse di passage', 'pão de forma seven boys', 
-            'garotinho', 'é um baita jogador', 'ta de brincadeira', 
-            'palmeiras não tem mundial', 'jogador pé de rato', 'tem que i pra seleção',
-            'é brincadeira', 'essa defesa ta parecenod um queijo suiço cheia de buraco'], 'Gerar um baita de um texto');
+            'eae garotinho', 'é um baita jogador', 'ta de brincadeira', 'é brincadeira?', 
+            'o palmeiras não tem mundial!', 'jogador pé de rato', 'tem que i pra seleção',
+            'essa defesa ta ai ta parecendo um queijo suiço cheia de buraco.'], 'Gerar um baita de um texto');
 
 const carroDaPamonha = new Character(4, 'Carro da Pamonha', 'Pamonha', CarroDaPamonhaPathImg,
 ['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Gerar Texto de Piracicaba');
 
-const players = [faustoSilva, chefJacquin, craqueNeto, joelSantana, casaGrande, anaMaria, 
-     carroDaPamonha, jaskieBardo, joseDatena, parequeQuepioro,
-rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation];
+const etBilu = new Character(16, 'ET Bilu', 'Bilu', EtBiluPathImg,
+['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Gerar texto com Conhecimento');
+
+const irmaosAObra = new Character(17, 'Irmãos a Obra', 'Irmãos', IrmaosAObraPathImg,
+['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Gerar texto com conceito aberto');
+
+const galvaoBueno = new Character(18, 'Galvão Bueno', 'Galvão', GalvaoBuenoPathImg,
+['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Haja coração para gerar o texto');
+
+const jogadorDeLol = new Character(19, 'Jogador Tóxico de LoL', 'Lolzeiro', JogadorDeLolPathImg,
+['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Gera texto seu lixo');
+
+const agostinhoCarrara = new Character(20, 'Agostinho Carrara', 'Agostinho', AgostinhoCarraraPathImg,
+['hodoor', 'hodor hodor', 'hodor Hodor hodor', 'HODOORRR', 'HoDor', 'HODOR HODOR'], 'Gerar texto com Lineu');
+
+const players = [faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+    joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
+    jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
+rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
 
 function getPlayerById(id){
     return players.find(player => player.id === id);

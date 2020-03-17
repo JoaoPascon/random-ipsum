@@ -16,13 +16,13 @@
 .panel-selection .options {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding: 10px;
     max-width: 680px;
     height: 360px;
     overflow-y: scroll;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px 0px 0px 5px;
 }
 

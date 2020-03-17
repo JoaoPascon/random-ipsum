@@ -26,9 +26,23 @@ function getRandomSeparateWord() {
 
 function generateText(wordsForShuffle) {
     let text = '';
+    let upperFirstLetter = false;
 
     while(text.length <= charactersLimit){
-        text = text.concat(getRandomWord(wordsForShuffle)).concat(', ');
+        let phrase = getRandomWord(wordsForShuffle);
+        let lastLetter = phrase.charAt(phrase.length -1);
+
+        phrase = upperFirstLetter ? phrase.replace(/^./, phrase[0].toUpperCase()) : phrase;
+       
+        if(['.', '?', '!'].indexOf(lastLetter) >= 0){
+            upperFirstLetter = true;
+            phrase = phrase.concat(' '); 
+        } else {
+            upperFirstLetter = false;
+            phrase = phrase.concat(', '); 
+        }
+        
+        text = text.concat(phrase);
     }
 
     return text;
