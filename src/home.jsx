@@ -39,7 +39,7 @@ export default class Home extends Component{
                 </div>
                 <div className="about">
                     <div className="about-title">
-                    - Sobre o Random -
+                    - Sobre o Random Ipsum -
                     </div>
                     <div className="about-desc">
                     Random Ipsum é um gerador de texto aletórios que gera seu conteúdo a partir de memes da internet,
