@@ -1,8 +1,8 @@
 import React from 'react'
-import './carouselItems.css'
+import './playersSelector.css'
 
 
-export default class CarouselItems extends React.Component {
+export default class PlayersSelector extends React.Component {
 
   constructor(props){
     super(props);

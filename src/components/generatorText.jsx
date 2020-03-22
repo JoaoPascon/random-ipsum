@@ -1,12 +1,12 @@
 import React from 'react'
-import './textArea.css'
-import GeneratorText from '../services/generateText'
+import './generatorText.css'
+import GenerateText from '../services/generateText'
 import {ToastsContainer, ToastsStore} from 'react-toasts';
 import Select from 'react-select';
 import RandomPathImg from '../assets/images/random_image.jpg'
 
 
-class TextArea extends React.Component {
+class GeneratorText extends React.Component {
 
     constructor(props){
         super(props)
@@ -56,7 +56,7 @@ class TextArea extends React.Component {
             !this.state.optionSelected ? ToastsStore.error('Selecione o Nº de paragrafos para serem gerados') : void(0)
             return;
         }
-        this.setState({text: GeneratorText.getText(this.state.optionSelected.value, this.props.player.words)});
+        this.setState({text: GenerateText.getText(this.state.optionSelected.value, this.props.player.words)});
     }
 
     render() {
@@ -95,4 +95,4 @@ class TextArea extends React.Component {
     }
 }
 
-export default TextArea
+export default GeneratorText
