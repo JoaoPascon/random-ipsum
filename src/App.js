@@ -6,10 +6,7 @@ import './home.css'
 
 class App extends Component {
   render() {
-    
-    return <div class="background"> 
-     <Home/>
-    </div>
+    return <Home/>
   }
 }
 

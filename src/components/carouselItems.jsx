@@ -22,7 +22,7 @@ export default class CarouselItems extends React.Component {
   render() {
         return <div className="panel-selection">
           <div className="title-options">
-            <span> - Selecionar Personagem - </span>
+            <span> Seleção de Personagens </span>
           </div>
           <div className="options">
             {this.props.items.map(item => {

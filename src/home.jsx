@@ -28,18 +28,23 @@ export default class Home extends Component{
         return <div>     
             <Header></Header>
             <div className="">
-                <div className="display-flex-center">
-                    <div className="col-xs-12 col-md-12  col-lg-6">               
+                <div>
+                 <div className="section-title">
+                    - Gerador de Texto -
+                    </div>
+                    <div className="display-flex-center"> 
+                  <div className="col-xs-12 col-md-12  col-lg-6">               
                             <CarouselItems carouselId="carouselSelectPlayer" items={this.state.options}
                                 selectedCb={this.updatePlayer}/>
                   </div>
-                    <div className="col-xs-12 col-md-12 col-lg-6">
+                  <div className="col-xs-12 col-md-12 col-lg-6">
                         <TextArea player={this.state.selectedPlayer}/>
-                    </div>
+                  </div>
+                  </div>
                 </div>
                 <div className="about">
-                    <div className="about-title">
-                    - Sobre o Random Ipsum -
+                    <div className="section-title">
+                    - Sobre -
                     </div>
                     <div className="about-desc">
                     Random Ipsum é um gerador de texto aletórios que gera seu conteúdo a partir de memes da internet,
