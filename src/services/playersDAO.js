@@ -94,7 +94,7 @@ const amigoDollynho = new Character(15,'Amigo Dollynho', 'Dollynho', DollynhoPat
     [''], 'Vamos gerar o texto amiguinho');
 
 const faustoSilva = new Character(1,'Fausto Silva', 'Faustão', FaustoPathImg,
-    ['oloko meu', 'mais do que nunca em', 'essa fera ai', 
+    ['oloko meu', 'mais do que nunca em', 'essa fera ai meu', 
     'é brincadeira bixo', 'ta pegando fogo', 'churasqueira elétrica', 'as oito e sete',
     'reinaldo jaqueline', 'arquivo confidencial', 'reclames do plim plim', 'olokinho',
     'cade o meu ovo'], "Gerar esse texto bicho");
