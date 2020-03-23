@@ -15,14 +15,6 @@
     align-self: flex-start;
 }
 
-.section-title {
-    color: white;
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px 0px 10px 0px;
-    text-align: center;
-}
-
 .player-selected {
     color: white;
     font-size: 26px;
@@ -121,12 +113,4 @@
         flex-direction: column;
         height: auto;
     }
-}
-
-@media screen and (max-width: 510px) {
-
-    .section-title {
-        font-size: 28px;
-    }
-
 }
