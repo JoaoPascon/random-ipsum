@@ -16,7 +16,7 @@
     "react-toasts": "^3.0.6"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "open": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
