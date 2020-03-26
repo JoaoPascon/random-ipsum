@@ -27,27 +27,29 @@ import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
 import Character from '../Class/Character'
 
 const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg,
-    ['só ganha que faz gol', 'não pode perder esse lance', 'vai vencer quer ganhar', 
+    ['só ganha que faz gol pô!', 'não pode perder esse lance', 'porque vai vencer quer ganhar', 
     'na minha época não era assim', 'quem faz mais gol ganha', 'ta jogando muito mal',
-    'pra mim isso ta errado', 'ai fica dificil mesmo', 'vamo ve o que vai acontecer', 
-    'ele não ta bem', 'pra mim é um grande jogador', 'não ta jogando bem hoje', 'ele não fez o gol por que perdeu',
-'não da pra ganhar sem fazer gol', 'pra fazer gol tem que chutar', 'perdeu um grande oportunidade',
-'foi um lindo lance', 'é não sei né', 'quero vê isso em campo'], 'Gerar o texto pô');
+    'pra mim isso ta errado!', 'ai fica dificil mesmo', 'vamo ve o que vai acontecer né.', 
+    'ele não ta bem', 'mas pra mim é um grande jogador!', 'não ta jogando bem hoje', 
+    'ele não fez o gol por que perdeu né.', 'não da pra ganhar sem fazer gol', 
+    'pra fazer gol tem que chutar.', 'perdeu um grande oportunidade', 'quem vai ganha?',
+    'foi um lindo lance!', 'é não sei?', 'quero vê isso em campo'], 'Gerar o texto pô');
 
-const anaMaria = new Character(6,'Ana Maria & Louro', 'Ana&Louro', AnaMariaPathImg,
-    ['acoooooooooorda menina', 'meu Deus Ana Maria',
-    'solta os cachorros', 'poxa vida em Ana Maria', 'essa receita deleciosa',
-    'huuuuuuuuuuuuuuuuum', 'você gostou Louro ?', 'da um pouco pra mim Ana Maria',
-    'estou aqui com essa chef de cozinha maravilhosa', 'bom dia gente',
-    'programa ao vivo é assim mesmo', 'toma cuidado em Ana Maria'], 'Acooorda pra gerar o texto');
+const anaMaria = new Character(6,'Ana Maria & Louro', 'Ana-Louro', AnaMariaPathImg,
+    ['acoooooooooorda menina!', 'meu Deus Ana Maria', 'HaHaHaHahaHa haha', 'vamo passa em baixo da mesa?',  
+    'solta os cachorros', 'poxa vida em Ana Maria', 'essa receita esta deleciosa', 'começou o mais você',
+    'huuuuuuuuuuuuuuuuum', 'você gostou Louro?', 'da um pouco pra mim Ana Maria?', 'mete balas nele Ana Maria',
+    'estou aqui com essa chef de cozinha maravilhosa!', 'bom dia gente', 'vamos vamos vemos', 'da um pouco pra mim',
+    'você vai se deliciar com essa receita.', 'esse bolo vai fica delecioso!', 'um ótimo dia a todos vocês.',
+    'programa ao vivo é assim mesmo.', 'toma cuidado em Ana Maria.'], 'Acooorda pra gerar o texto');
 
 const jaskieBardo = new Character(7,'Jaskie Bardo', 'Jaskie', JaskierBardoPathImg,
-    ['toss a coin to your witcher', 'dê um trocado para seu bruxo', 'lanza una moneda a tu brujo',
-'lancia una moneta al tuo witcher', 'бросить монетку своему ведьмаку', 
-'당신의 마술사에게 동전을 던져' , 'lancer une pièce à votre sorceleur', 'gooi een munt naar je witcher',
-'ĵeti moneron al via sorĉisto', 'ρίξτε ένα νόμισμα στο μαγισσό σας', 'Wirf eine Münze zu deinem Hexer',
-'あなたのウィッチャーにコインを投げる', 'wrzuć monetę do wiedźmina', 'إرم عملة ل الخاص بك',
-'Coronas cornonabit insignitur denarius ad Witcher'], 'Toss a text to you witcher');
+    ['toss a coin to your witcher.', 'dê um trocado para seu bruxo.', 'lanza una moneda a tu brujo.',
+'lancia una moneta al tuo witcher.', 'бросить монетку своему ведьмаку.', 
+'당신의 마술사에게 동전을 던져.' , 'lancer une pièce à votre sorceleur.', 'gooi een munt naar je witcher.',
+'ĵeti moneron al via sorĉisto.', 'ρίξτε ένα νόμισμα στο μαγισσό σας.', 'Wirf eine Münze zu deinem Hexer.',
+'あなたのウィッチャーにコインを投げる.', 'wrzuć monetę do wiedźmina.', 'إرم عملة ل الخاص بك.',
+'Coronas cornonabit insignitur denarius ad Witcher.'], 'Toss a text to you witcher.');
 
 const joseDatena = new Character(8,'Jose Datena', 'Datena', JoseDatenaPathImg,
     ['barbaridade', 'me da imagens', 'comandante Amilton', 

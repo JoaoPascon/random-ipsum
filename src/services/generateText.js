@@ -21,7 +21,8 @@ function getRandomWord(words) {
 }
 
 function getRandomSeparateWord() {
-    return ', '
+    let numberRandom = Math.random(0, 1) * 100;
+    return numberRandom > 30 ? ', ' : ' e ';
 }
 
 function generateText(wordsForShuffle) {
@@ -39,7 +40,7 @@ function generateText(wordsForShuffle) {
             phrase = phrase.concat(' '); 
         } else {
             upperFirstLetter = false;
-            phrase = phrase.concat(', '); 
+            phrase = phrase.concat(getRandomSeparateWord()); 
         }
         
         text = text.concat(phrase);
