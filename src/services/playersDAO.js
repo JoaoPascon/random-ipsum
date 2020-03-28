@@ -52,54 +52,75 @@ const jaskieBardo = new Character(7,'Jaskie Bardo', 'Jaskie', JaskierBardoPathIm
 'Coronas cornonabit insignitur denarius ad Witcher.'], 'Toss a text to you witcher.');
 
 const joseDatena = new Character(8,'Jose Datena', 'Datena', JoseDatenaPathImg,
-    ['barbaridade', 'me da imagens', 'comandante Amilton', 
- 'é uma barbaridade', 'é brincadeira', 'culpa desse politicos safados',
- 'a população não aguenta mais', 'ta complicado', 'esses criminosos',
- 'um bando de canalhas', 'isso não pode mais acontecer', 'ta tudo parado na marginal',
- 'ta tendo manifestação', 'olha só', 'está tudo alagado mais uma vez', 'e ta vindo chuva em'], 
+    ['é barbaridade', 'me da imagens', 'comandante Amilton ta me ouvindo?', 'esses canalhas',
+ 'é uma barbaridade.', 'é brincadeira', 'culpa desse politicos safados.', 'imagens fortes', 
+ 'esses calhordas!', 'é o fim da picada isso.', 'quero imagens', 'onde estão os politicos?',
+ 'a população não aguenta mais', 'ta complicado!', 'esses criminosos.', 'cadê o Almilton?',
+ 'um bando de canalhas', 'isso não pode mais acontecer', 'ta tudo parado na marginal de novo?',
+ 'ta tendo manifestação', 'olha só', 'está tudo alagado mais uma vez!', 'ta vindo chuva em'], 
  'Gerar texto capitão Amilton');
 
 const parequeQuepioro = new Character(9,'Parece Que Pioro', 'Tava Ruim', PareceQuepioroPathImg,
-    ['ja tava bom', 'ai melhorou', 'agora parece que pioro',
-'então ja não tava bom', 'ai tinha dado uma melhorada', 'que disse ta mais ou menos',
-'não tava tão bom assim', 'mas não melhorou', 'disse que ia mudar para melhor',
-'não tava muito bom', 'tava meio ruim também', 'tava ruim', 'meio ruim', 'concerteza'],
+    ['ja tava bom!', 'ai melhorou', 'agora parece que pioro!', 'agora não sei', 'ele disse que ia mudar para melhor.',
+'então ja não tava bom.', 'ai tinha dado uma melhorada', 'que disse ta mais ou menos né',
+'não tava tão bom assim.', 'ele disse', 'ia muda', 'mas não melhorou', 'disse que ia mudar para melhor', 'mudava pra melhor',
+'não tava muito bom', 'tava meio ruim também', 'tava ruim', 'meio ruim', 'concerteza', 'é então'],
  'Gerar um texto que ja nao ta bom');
 
 const rickTratofeito = new Character(10,'Rick Trato Feito', 'Rick', RickTratoFeitoPathImg,
-    ['a gente nunca sabe o que vai entrar pela aquela porta', 'vou ter que chamar um especialista', 
-'sabe como é eu preciso ganhar dinheiro também', 'eu conheço alguém que sabe tudo sobre isso', 
-'não é que eu não confio em você', 'eu não confio em ninguém', 'isso vai ficar muito tempo na minha loja',
-'isso não da lucro', 'não vai ser fácil vender', 'isso não me parece autêntico' , 
-'eu trabalho aqui com meu pai e meu filho','esse é o trato feito', 'esse é o meu maximo', 
-'nem sei por que estou fazendo isso', 'um cara trouxe algo muito interessante', 'a restauração não foi bem feita',
-'isso precisa ser restaurado'], 'Gerar texto com um especialista');
+    ['a gente nunca sabe o que vai entrar pela aquela porta.', 'vou ter que chamar um especialista!', 
+'sabe como é eu preciso ganhar dinheiro também.', 'eu conheço alguém que vai saber tudo sobre isso.', 
+'não é que eu não confio em você.', 'eu não confio em ninguém!', 'isso vai ficar muito tempo na minha loja',
+'isso não da lucro!', 'não vai ser fácil vender', 'isso não me parece autêntico', 'você aceita 500?', 
+'eu trabalho aqui com meu pai e meu filho', 'esse é o trato feito.', 'esse é o meu maximo', 'é um tiro no escuro',
+'você não consegue abaixar mais?', 'cadê o Chumlee?',  'esse é o seu minimo?', 'que tal 900?', 'isso é muito legal!',
+'nem sei por que estou fazendo isso', 'um cara trouxe algo muito interessante hoje', 'a restauração não foi bem feita',
+'isso precisa ser restaurado.'], 'Gerar texto com um especialista');
 
-const silvioLuiz = new Character(11,'Silvio Luiz', 'Silvio',SilvioLuizPathImg,
-    ['Minha nossa Senhora', 'abriu a caixa de ferrmaente em', 
-'olha no lance', 'é foi foi foi foi dele', 'ta armado o pagode em', 'lindo lance',
-'balançou o capim no fundo da rede', 'abram-se as cortinas e começa o espetaculo' ,
-'não precisava fazer esse falta né', 'olha o contra-ataque', 'bola pro mato que o jogo é de campeonato',
-'rolou a bola', 'vai chutar bunde de vaca', 'agora é pra fazer', 'Gooooooooooool'], 'Olho na geração do texto !');
+const silvioLuiz = new Character(11,'Silvio Luiz', 'Silvio', SilvioLuizPathImg,
+    ['minha nossa Senhora!', 'abriu a caixa de ferramenta em', 'ta armado o pagode na casa do galo em',
+'olha no lance', 'foi foi foi foi foi foi foi dele!', 'ta armado o pagode em', 'lindo lance.', 
+'pode ser agora?','balançou o capim no fundo da rede.', 'abram-se as cortinas', 
+'começa o espetaculo', 'será que foi ele?', 'ai não né bonitão.', 'não precisava fazer esse falta né', 
+'olha o contra-ataque', 'bola pro mato que o jogo é de campeonato', 'será que vai sai o gol?',
+'linda defesa do goleiro', 'foi para muito longe.', 'ele é ruim com as duas pernas', 'nossa que coisa feia', 
+'rolou a bola', 'vai chutar bunda de vaca', 'agora é pra fazer', 'Gooooooooooool!'], 'Olho na geração do texto!');
 
 const joelSantana = new Character(12,'Joel Santana', 'Papai Joel', JoelSantanaPathImg,
-    [''], 'Geneirate the good text of world');
+    ['Is a gud player', 'is the best world player.', 'play in the left', 'play in the right', 'head shoulders head shoulders!',
+        'i have controll de mate!', 'play in de middou', 'player is very gud', 'South Africa play sami', 'du noti?', 
+        'we havi the best oportunit', 'another player', 'played very gud', 'the book on the table', 'verb to be', 'yes I can?', 
+        'the player have many experience', 'Im very happy', 'is a great time.', 'in the second time mai time', 'the player experience.',
+      'is gud time!', 'so so yeah.', 'is a great player', 'tu ta de brincation with me', 'do you noun the number one shamppo',
+    'remove une hundred porcent.', 'plise loocki to me', 'finishe de cocereition'],
+    'Geneirate the good text of world');
 
 const williamBonner = new Character(13,'William Bonner', 'Bonner', WilliamBonnerPathImg,
-    ['boa noite', 'boa noite', 'tenham uma ótima noite', 'e tenham uma boa noite'], 'Gerar Texto e Boa Noite!');
+    ['boa noite.', 'boa noite!', 'boa noite', 'boa noite?'], 'Gerar Texto e Boa Noite!');
 
 const yudiPlaystation = new Character(14,'Yudi Playstation', 'Yudi', YudiPlaystationPathImg,
-    ['Playstation', 'Playstation', 'Playstation', 'Playstation', 'Playstation', 'Playstation',
-    'Playstation', 'Playstation', 'você ganhou um jogo da vida não fica triste não'], 'Gerar Playtexto Playtexto');
+    ['playstation', 'playstation', 'playstation', 'playstation', 'playstation', 'playstation',
+    'playstation', 'playstation', 'playstation', 'playstation', 'playstation', 'playstation', 
+    'poxa você ganhou um jogo da vida mas não fica triste não.'], 'Gerar Playtexto Playtexto');
 
 const amigoDollynho = new Character(15,'Amigo Dollynho', 'Dollynho', DollynhoPathImg,
-    [''], 'Vamos gerar o texto amiguinho');
+    ['vamos brincar?', 'papai você é um herói é meu exemplo na vida eu te ofereço esse dolly.', 
+    'dolly guarána dolly guarana', 'dolly dolly dolly dolly dooooooolly', 'ei amiguinho',
+    'oi pessoal eu sou o dollynho o seu amiguinho.', 'vamos cantar?', 'dolly dolly guarana dolly o melhor',
+    'o dolly guarana o sabor brasileiro!', 'tome muito liquido!', 'jogue a garrafinha no lixo', 
+    'vamos cuidar do nosso planeta!', 'pratique esportes', 'mamãe você é amor é o exemplo da vida eu te ofereço esse dolly.',
+    'um dolly dois dollys três dollys pra mim.', 'dolly o melhor', 'saboroso'], 
+    'Vamos gerar o texto amiguinho');
 
 const faustoSilva = new Character(1,'Fausto Silva', 'Faustão', FaustoPathImg,
-    ['oloko meu', 'mais do que nunca em', 'essa fera ai meu', 
-    'é brincadeira bixo', 'ta pegando fogo', 'churasqueira elétrica', 'as oito e sete',
-    'reinaldo jaqueline', 'arquivo confidencial', 'reclames do plim plim', 'olokinho',
-    'cade o meu ovo'], "Gerar esse texto bicho");
+    ['oloko meu', 'mais do que nunca em.', 'essa fera ai meu.', 'ele que é um dos maiores sucessos do Brasil.',
+    'disco de ouro', 'não é brincadeira não viu.', 'Olha aí o japinha!', 'se vira nos 30!',
+    'mais uma dança dos famosos', 'está começando mais um domingão do Faustão', 'isso não é facil não', 
+    'é brincadeira bixo', 'ta pegando fogo', 'churasqueira elétrica', 'as oito e sete', 'você está no arquivo confidencial!',
+    'Reinaldo Jaqueline.', 'Pablo Vilar.', 'é o caminhão fo faustão', 'vamos para os reclames do plim plim', 'olokinho',
+    'e como faz pra apaga isso?', 'chama os bombeiros lá.', 'ás 7:17', 'ás 8:19', 'um grande amigo meu',
+    'mais de 1 milhão de copias vendidas!', 'olokinho meu', 'que que é isso, bicho?', 'domingão na casa da sogra',
+    'cadê o meu ovo?'], "Gerar esse texto bicho");
 
 const chefJacquin = new Character(2, 'Chef Jacquin', 'Jacquin', JacquinPathImg, ['falta tumpero', 'vergonha para a proffisoum', 'vamo vamo', 'num quero sabe',
             'falta meia hora', 'sento na graxa', 'isso não ta baum', 'experiment você',
