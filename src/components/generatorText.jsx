@@ -17,6 +17,7 @@ class GeneratorText extends React.Component {
             optionSelected: '',
             quantityOptions: []
         }
+        this.clearText = this.clearText.bind(this);
         this.copyText = this.copyText.bind(this);
         this.updateOption = this.updateOption.bind(this);
         this.generateText = this.generateText.bind(this);
@@ -26,20 +27,32 @@ class GeneratorText extends React.Component {
         this.setState({quantityOptions: [{value: 1, label: 'Um'}, {value: 2, label: 'Dois'}, {value: 3, label: 'Três'}, 
         {value: 4, label: 'Quatro'}, {value: 5, label: 'Cinco'}, {value: 6, label: 'Seis'}, {value: 7, label: 'Sete'},
         {value: 8, label: 'Oito'}, {value: 9, label: 'Nove'}]});
-        this.setState()
     }
 
     componentDidUpdate(prevProps) {
         if(this.props.player !== prevProps.player){
+            this.clearText();
             this.setState(prevState => (
-                { author: {name: this.props.player.name || 'Não selecionado',
+                { author: {
+                          name: this.props.player.name || 'Não selecionado',
                           sourceImagePath: this.props.player.sourceImagePath || RandomPathImg,
-                          btnLabel: this.props.player.btnLabel || 'Gerar Texto'}
-                }))
+                          btnLabel: this.props.player.btnLabel || 'Gerar Texto'
+                        }
+                }))    
         }        
     }
 
+    clearText() {
+        this.setState({text: ''});
+    }
+
     copyText(event) {
+        
+        if(!this.state.text) {
+            ToastsStore.warning('Não contém texto para ser copiado!');
+            return;
+        }
+
         document.querySelector('textarea').select();
         document.execCommand('copy');
         window.getSelection().removeAllRanges()
@@ -85,10 +98,10 @@ class GeneratorText extends React.Component {
                         </button>
                         <button className="btn btn-outline-info btn-copy-text" onClick={(e) => this.copyText(e)}>
                         <span className="far fa-copy mr-10"></span>
-                        <span> Copiar Texto</span>
+                        <span>Copiar Texto</span>
                     </button>
                     </div>
-                    <textarea className="text-area-style" rows="10" cols="50" value={this.state.text}></textarea>
+                    <textarea readOnly className="text-area-style" rows="10" cols="50" value={this.state.text}></textarea>
                     <ToastsContainer store={ToastsStore}/>
                 </div>
             
