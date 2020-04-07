@@ -159,7 +159,7 @@ const etBilu = new Character(16, 'Sandy & Junior', 'Sandy&Jr', SandyJuniorPathIm
 'outono é sempre igual', 'as folhas caem no quintal', 'vou te encontrar na luz das estrelas', 'te refletir nas águas do mar',
 'dig-dig-joy, dig-joy-popoy', 'vem brinca comigo']);
 
-const irmaosAObra = new Character(17, 'Irmãos a Obra', 'Irmãos', IrmaosAObraPathImg, 'Gerar texto com conceito aberto',
+const irmaosAObra = new Character(17, 'Irmãos a Obra', 'Jona&Drew', IrmaosAObraPathImg, 'Gerar texto com conceito aberto',
 ['nossa isso é amianto?', 'vamos acabar com essa sala', 'isso é muito antigo', 'precisamos melhorar toda esse área externa.',
  'esse carpete é horrivel!', 'acho que iremos acabar passando um pouco do orçamento.', 'vocês precisam olhar além dessas paredes!',
 'essa é uma casa muito grande.', 'podemos então fazer uma oferta?', 'eu não sei se a família vai gostar muito disso!',
