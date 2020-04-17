@@ -176,7 +176,7 @@ const galvaoBueno = new Character(18, 'Galvão Bueno', 'Galvão', GalvaoBuenoPat
  'não sei se vai da pra ele continuar em!', 'GOOOOOOOOOOOOOOOOOOL é do Brasil', 'ronaldinho é o nome dele',
  'mas o Brasil ta jogando muito mal', 'chegamos aos 8 minutos de jogo e o que você está achando Casa Grande?',
  'o único problema dessa reta é que termina numa curva.' , 'chutou com a perna errada!', 'começa o jogo', 'pedala robinho',
- 'tem que colocar o coroção na porta da chuteira', 'não da pra fazer dois gols ao mesmo tempo', 'gol da Alemanha',
+ 'tem que colocar o coroção na ponta da chuteira', 'não da pra fazer dois gols ao mesmo tempo', 'gol da Alemanha',
  'la vem eles de noooooovo goooool.', 'isso é uma tragédia', 'quem é que sobe?', 'o gol saiu no momento certo!',
  'foi pro chão e pediu falta', 'isso é você que está falando', 'é uma falta perigossísima', 'vamos ver no que vai dar isso.',
  'olha como o Felipão esta nervoso', 'pode ser o último lance do jogo em.', 'tem que ir pra cima', 'isso ronaldinho pra cima deles',
@@ -208,7 +208,7 @@ const agostinhoCarrara = new Character(20, 'Agostinho Carrara', 'Agostinho', Ago
 const players = [faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
-rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
+    rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
 
 function getPlayerById(id){
     return players.find(player => player.id === id);
