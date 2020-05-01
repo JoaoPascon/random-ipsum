@@ -1,19 +1,6 @@
 'use strict'
 
 const charactersLimit = 400;
-const ipsums = ['i', 'ip', 'sum', 'um', 'm', 'l', 'lo', 'rem', 'em', 'm'];
-
-function shuffleWords(wordsForShuffle) {
-    let randomWord = getRandomWord(wordsForShuffle);
-
-    let wordList = randomWord.split(' ');
-   
-    let word = getRandomWord(wordList);
-    let wordConcatIpsum = word.concat(' ').concat(getRandomWord(ipsums));
-    
-    return wordConcatIpsum;
-}
-
 
 function getRandomWord(words) {
     let randomPosition = Math.round(Math.random() * (words.length -1));
@@ -25,7 +12,8 @@ function getRandomSeparateWord() {
     return numberRandom > 30 ? ', ' : ' e ';
 }
 
-function generateText(wordsForShuffle) {
+function generateParagraph(wordsForShuffle) {
+    
     let text = '';
     let upperFirstLetter = false;
 
@@ -50,23 +38,23 @@ function generateText(wordsForShuffle) {
 }
 
 function getText(quantity, wordsForShuffle){
-    let textNumbers = 0;
+   
+    let paragraphNumbers = 0;
     let textConcat = '';
 
-    while(textNumbers < quantity){
-        let textGenerate = generateText(wordsForShuffle);
-        textConcat = textConcat.concat(formatText(textGenerate));
-        textNumbers +=1;
+    while(paragraphNumbers < quantity){
+        let paragraph = generateParagraph(wordsForShuffle);
+        textConcat = textConcat.concat(formatParagraph(paragraph));
+        paragraphNumbers +=1;
     }
 
     return textConcat;
 }
 
-function formatText(words) {
-    return words.replace(/^./, words[0].toUpperCase())
-    .slice(0, words.length - 2).concat('.')
+function formatParagraph(paragraph) {
+    return paragraph.replace(/^./, paragraph[0].toUpperCase())
+    .slice(0, paragraph.length - 2).concat('.')
     .concat('\n\n');
-
 }
 
 export default {

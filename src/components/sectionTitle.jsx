@@ -6,7 +6,7 @@ export default class sectionTitle extends Component {
 
     render() {
         return <div className="section-title">
-                --{this.props.title}--
+                {this.props.title}
             </div>
     }
 

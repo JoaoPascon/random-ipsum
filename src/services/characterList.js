@@ -24,7 +24,7 @@ import IrmaosAObraPathImg from '../assets/images/irmaos_a_obra.jpg'
 import JogadorDeLolPathImg from '../assets/images/jogador_de_lol.jpg'
 import RobertoCarlosPathImg from '../assets/images/roberto_carlos.jpg'
 import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
-import Character from '../Class/Character'
+import Character from '../class/Character'
 
 const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg, 'Gerar o texto pô',
     ['só ganha que faz gol pô!', 'não pode perder esse lance', 'porque vai vencer quer ganhar', 

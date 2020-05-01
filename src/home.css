@@ -68,7 +68,18 @@
     width: 75%;
     display: flex;
     flex-direction: column;
-    margin: 20px auto 40px auto;
+    margin: 5px auto 20px auto;
+}
+
+.contribution {
+    color: white;
+    width: 100%;
+    background-color: #181818;
+    padding-bottom: 45px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
 }
 
 .about > .about-title {
@@ -76,8 +87,31 @@
     text-align: center;
 }
 
-.about > .about-desc {
+.about > .about-desc,
+.contribution > .contribution-desc {
     text-align: center;
+    padding: 10px;
+}
+
+.git-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 5px;
+}
+
+.git-icon {
+    color: #b96dff;
+    font-size: 74px;
+    margin: 0 20px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.git-link {
+    display: grid;
+    text-align: start;
 }
 
 .m-10 {
@@ -104,6 +138,18 @@
     margin-top: 5px;
 }
 
+.color-green {
+    color: green;
+}
+
+.color-purple {
+    color: purple;
+}
+
+.break-word {
+    word-break: break-word;
+}
+
 @media screen and (max-width: 990px) {
     
     .display-flex-center {
@@ -113,4 +159,13 @@
         flex-direction: column;
         height: auto;
     }
+
+}
+
+@media screen and (max-width: 660px) {
+    
+    .about {
+        width: 90%;
+    }
+
 }

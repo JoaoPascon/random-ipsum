@@ -3,8 +3,8 @@ import Header from './components/header'
 import Footer from './components/footer'
 import SectionTitle from './components/sectionTitle'
 import GeneratorText from './components/generatorText'
-import PlayersSelector from './components/playersSelector'
-import PlayersDAO from './services/playersDAO'
+import PlayersSelector from './components/charactersSelector'
+import PlayersDAO from './services/characterList'
 import './home.css'
 import {ToastsContainer, ToastsStore} from 'react-toasts'
 
@@ -40,6 +40,22 @@ export default class Home extends Component{
                             <GeneratorText player={this.state.selectedPlayer}/>
                         </div>
                     </div>
+                </div>
+                <div className="contribution">
+                    <SectionTitle title="Adicione Seu Personagem" />
+                    <div className="contribution-desc">
+                        Gostou da ideia? 
+                        <br/> Faça um fork do projeto no github e manda um pull-request com seu personagem!
+                        <div className="git-information">
+                          <span class="fab fa-github git-icon"></span>
+                         <div class="git-link">
+                             <span>Acesse: </span>
+                             <a class="break-word" target="_blank" href="https://github.com/JoaoPascon/random-ipsum.git">
+                                 https://github.com/JoaoPascon/random-ipsum
+                            </a>
+                         </div>
+                        </div>                  
+                    </div> 
                 </div>
                 <div className="about">
                     <SectionTitle title="Sobre" />

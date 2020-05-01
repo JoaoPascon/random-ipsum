@@ -1,5 +1,5 @@
 import React from 'react'
-import './playersSelector.css'
+import './charactersSelector.css'
 
 
 export default class PlayersSelector extends React.Component {
