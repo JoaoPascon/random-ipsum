@@ -24,7 +24,7 @@ import IrmaosAObraPathImg from '../assets/images/irmaos_a_obra.jpg'
 import JogadorDeLolPathImg from '../assets/images/jogador_de_lol.jpg'
 import RobertoCarlosPathImg from '../assets/images/roberto_carlos.jpg'
 import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
-import Character from '../class/Character'
+import Character from '../Class/Character'
 
 
 const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg, 'Gerar o texto pô',
