@@ -209,10 +209,36 @@ const agostinhoCarrara = new Character(20, 'Agostinho Carrara', 'Agostinho', Ago
 'feliz é aquele que não é triste', 'Ooha, Lineu, oportunidade não bate duas vezes na mesma porta.', 'temos que nos unir',
 'eu to precisando muito desse dinheiro', 'beiçola me vê um pastel de camarão no capricho ta!', 'a senhora é uma segunda mãe pra mim dona Nênê']);
 
-const padreMarcelo = new Character(21, 'Padre Marcelo Rossi', 'P. Marcelo', PadreMarceloPathImg, 'Gerar texto com os animalzinhos', ['']);
-const queroCafe = new Character(22, 'Quero Café Quero Café', 'Quero Café', QueroCafePathImg, 'Quero gerar texto', [''])
-const juarezTekPix = new Character(24, 'Juarez da Tekpix', 'Cara da Tekpix', JuarezTekpixPathImg, 'Gerar texto em mp3, mp4...', [''])
-const robertoCarlos = new Character(25, 'Roberto Carlos', 'Roberto Carlos', RobertoCarlosPathImg, 'Descongelar ele e gerar texto', [''])
+const padreMarcelo = new Character(21, 'Padre Marcelo Rossi', 'P. Marcelo', PadreMarceloPathImg, 'Gerar texto com os animalzinhos', 
+['meu pai meu pai meu pai do céu!', 'e os animalzinhos entraram de 2 em 2!', ' ainda se vier noite traiçoeira', 
+'mas Deus me quer sorrindo', 'Deus está aqui neste momento!', 'Nossa Senhora me de a mão cuida do meu coração!',
+'segura na mão de Deus e vai...', 'não temas', 'segue adiante', 'não olhes para trás',  'erga suas mãos', 'ninguém de ama como eu!',
+'meu coração é para Ti Senhor', '´por que tu me deste a vida!', 'minha saúde é para ti Senhor', 'erguei as mãos', 'dai glória a Deus',
+'o elefante e os passarinhos como os filhos do Senhor', 'o canguru e o sapinho como os filhos do Senhor', 
+'a minhoquinha e os pinguins como os filhos do Senhor', 'dai em glória Deus', 'cantai com os filhos do senhor.']);
+
+const queroCafe = new Character(22, 'Quero CAFÉÉÉÉÉ', 'Quero Café', QueroCafePathImg, 'Quero gerar texto!', 
+['querooooooo CAFÉÉÉÉÉÉÉÉÉÉÉ', 'ÉÉÉÉÉÉÉÉÉÉÉÉ', 'CAFÉÉÉÉÉ', 'isso aqui é uma porcaria!', 'porcaria', 'essa porcaria',
+'não... merda nenhuma', 'merda nenhuma', 'me desculpe!', 'merda', 'quero CAFÉÉÉ', 'desculpe', 'essa merda',
+'uma porcaria', 'não tem', 'ÉÉÉÉÉÉÉÉ', 'CAFÉ', 'desculpe me!', 'que não tem medrd nenhuma', 'quero CAFÉ quero CAFÉ'])
+
+const juarezTekPix = new Character(24, 'Juarez da Tekpix', 'Tekpix', JuarezTekpixPathImg, 'Gerar texto em mp3, mp4...', 
+['filmadora mais vendida do Brasil!', 'se não pode perder essa oportunidade em!', 'as primeiras 534 mil pessoas que ligaram ganharam um brinde especial',
+'quem ganha um brinde legal?', 'ela filma, grava, tudo em alta qualidade.', 'ela é mp3, mp4, o carro do batman', 'é incrivel', 'a melhor do mercado',
+'daremos um desconto para as primeiras 122 mil pessoas que ligaram em.', 'corre por que o estoque ta acabando', 'mas vamos falar de coisa boa né',
+'são pequenas parcelinahs ta bom!', 'que tal registar melhor os seus momentos?', 'corre e ligar ja em', 'essa é a última oportunidade',
+'tekpix é da tecnomania!', 'ela filma, grava, faz café, e joga buzios', 'vamos falar de coisa boa?', 'tenho uma novidade para vocês', 
+'não acredito que você ai não tem filmadora', 'o primeiro boleto é pra daqui 30 dias!', 'estou baixando o preço agora', 
+'vai com um presente surpresa.', 'é só ligar 0800 777 7000', 'ligar em 5 minutos', 'essa camara é 7 e 1.'])
+
+const robertoCarlos = new Character(25, 'Roberto Carlos', 'R. Carlos', RobertoCarlosPathImg, 'Gerar o texto com muitas emoçoes', 
+['olhando pra você as mesmas emoções eu sinto!', 'e as baleias que navegam no oceano', 'Jesus Cristo, Jesus Cristo eu estou aqui!',
+'é bixo são tantas emoções!', 'essa cara sou eu!', 'quem é que pensa em você toda hora?', 'que conta os segundos se você demora?',
+'é preciso saber viver', 'saber viver', 'uma pedra no caminho você pode desviar.', 'além do horizonte existe um lugar', 
+'como é grande o meu amor por você!', 'Lady Laura, Lady Laura', 'Nossa Senhora me dê a mão', 'cuida do meu coração',
+'você meu amigo de fé', 'meu irmão camarada',  'amigo de tantos caminhos e tantas jornada!', 'quando eu estou aqui eu vivo esse momento lindo',
+'se chorei ou se sorri o importante e que emoções eu vivi', 'vivo por ela ninguém dúvida?', 'por que ela é tudo na minha vida!', 
+'para derramar sobre o vermelho derramado', 'meus netos iram te perguntar em poucos anos sobre as baleians que navegam no oceano!'])
 
 const players = [padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
