@@ -24,6 +24,9 @@ import IrmaosAObraPathImg from '../assets/images/irmaos_a_obra.jpg'
 import JogadorDeLolPathImg from '../assets/images/jogador_de_lol.jpg'
 import RobertoCarlosPathImg from '../assets/images/roberto_carlos.jpg'
 import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
+import PadreMarceloPathImg from '../assets/images/padre_marcelo.jpg'
+import QueroCafePathImg from '../assets/images/quero_cafe.jpg'
+import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
 import Character from '../Class/Character'
 
 
@@ -206,7 +209,12 @@ const agostinhoCarrara = new Character(20, 'Agostinho Carrara', 'Agostinho', Ago
 'feliz é aquele que não é triste', 'Ooha, Lineu, oportunidade não bate duas vezes na mesma porta.', 'temos que nos unir',
 'eu to precisando muito desse dinheiro', 'beiçola me vê um pastel de camarão no capricho ta!', 'a senhora é uma segunda mãe pra mim dona Nênê']);
 
-const players = [faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+const padreMarcelo = new Character(21, 'Padre Marcelo Rossi', 'P. Marcelo', PadreMarceloPathImg, 'Gerar texto com os animalzinhos', ['']);
+const queroCafe = new Character(22, 'Quero Café Quero Café', 'Quero Café', QueroCafePathImg, 'Quero gerar texto', [''])
+const juarezTekPix = new Character(24, 'Juarez da Tekpix', 'Cara da Tekpix', JuarezTekpixPathImg, 'Gerar texto em mp3, mp4...', [''])
+const robertoCarlos = new Character(25, 'Roberto Carlos', 'Roberto Carlos', RobertoCarlosPathImg, 'Descongelar ele e gerar texto', [''])
+
+const players = [padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
