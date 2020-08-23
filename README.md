@@ -4,4 +4,4 @@ Os conteúdos dos textos gerados pelo projeto vêm das mais variadas fontes, com
 
 O projeto ainda está em desenvolvimento e constantemente terá mudanças, seja na inclusão de novos personagens ou de novas features. Fique a vontade para dar fork no projeto para adicionar novos personagens, fazer correções de bugs ou melhorias. 
 
-Aceitamos quaisquer sugestão!
+Aceitamos quaisquer sugestões! 
