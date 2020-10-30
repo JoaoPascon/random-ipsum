@@ -1,4 +1,5 @@
 'use strict'
+import NeymarJrImg from '../assets/images/neymar_jr.jpg'
 import DollynhoPathImg from '../assets/images/amigo_dollynho.jpg'
 import CarroDaPamonhaPathImg from '../assets/images/carro_dapamonha.jpg'
 import JoelSantanaPathImg from '../assets/images/joel_santana.jpg'
