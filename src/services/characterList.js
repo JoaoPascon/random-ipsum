@@ -30,7 +30,7 @@ import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
 import Character from '../Class/Character'
 
 
-const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg, 'Gerar o texto pô',
+const casaGrande = new Character(5,'Casa Grande', 'Casão', CasaGrandePathImg, 'Gerar o texto ai pô',
     ['só ganha que faz gol pô!', 'não pode perder esse lance', 'porque vai vencer quer ganhar', 
     'na minha época não era assim', 'quem faz mais gol ganha', 'ta jogando muito mal',
     'pra mim isso ta errado!', 'ai fica dificil mesmo', 'vamo ve o que vai acontecer né.', 
