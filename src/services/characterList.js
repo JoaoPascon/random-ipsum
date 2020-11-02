@@ -27,6 +27,7 @@ import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
 import PadreMarceloPathImg from '../assets/images/padre_marcelo.jpg'
 import QueroCafePathImg from '../assets/images/quero_cafe.jpg'
 import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
+import NeymarJrImg from '../assets/images/neymar_jr.jpg'
 import Character from '../Class/Character'
 
 
@@ -240,7 +241,15 @@ const robertoCarlos = new Character(25, 'Roberto Carlos', 'R. Carlos', RobertoCa
 'se chorei ou se sorri o importante e que emoções eu vivi', 'vivo por ela ninguém dúvida?', 'por que ela é tudo na minha vida!', 
 'para derramar sobre o vermelho derramado', 'meus netos iram te perguntar em poucos anos sobre as baleians que navegam no oceano!'])
 
-const players = [padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+const neymarJr = new Character(26,'Neymar Jr', 'Menino Ney', NeymarJrImg, 'O texto me derrubou aqui juiz',
+    ['cai?','Deus é TOP', 'cai!', 'saudades do que a gente não viveu ainda', 'to aqui beijando a grama', 'bom dia, razão da minha libido', 
+    'To aqui quase pegando no sono mas queria mesmo era ta pegando você', 'cai aqui juiz!', 'o ousado chegou !!! kkkkk',
+    'falta juiz!!!', 'To chegando com os refrii rapaziada !!', 'Ousadia e alegria!', 'cai cai balão',
+    'a fila anda, a catraca gira, se sentiu saudades VAI PRO FINAL DA VILA', 'rolando aqui novamente',
+    'lanche rapaziada', 'caidinho por você!', '#cheideFOME', 'cai !', 'deve ser o meu que mamãe me passou','cai !!!', 
+    'o ousado chegou !!! kkkk', 'olha eu no chão aqui!', 'cai.'])
+
+const players = [neymarJr, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
