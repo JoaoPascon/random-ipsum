@@ -27,6 +27,7 @@ import AgostinhoCarraraPathImg from '../assets/images/agostinho_carrara.jpg'
 import PadreMarceloPathImg from '../assets/images/padre_marcelo.jpg'
 import QueroCafePathImg from '../assets/images/quero_cafe.jpg'
 import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
+import NeymarJrImg from '../assets/images/neymar_jr.jpg'
 import Character from '../Class/Character'
 
 
@@ -240,7 +241,15 @@ const robertoCarlos = new Character(25, 'Roberto Carlos', 'R. Carlos', RobertoCa
 'se chorei ou se sorri o importante e que emoções eu vivi', 'vivo por ela ninguém dúvida?', 'por que ela é tudo na minha vida!', 
 'para derramar sobre o vermelho derramado', 'meus netos iram te perguntar em poucos anos sobre as baleians que navegam no oceano!'])
 
-const players = [padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+const neymarJr = new Character(26,'Menino Ney', 'Neymar Jr', NeymarJrImg, 'O texto me derrubou aqui juiz',
+    ['cai?','Deus é TOP', 'cai!', 'saudades do que a gente não viveu ainda', 'to aqui beijando a grama', 'bom dia, razão da minha libido', 
+    'To aqui quase pegando no sono mas queria mesmo era ta pegando você', 'cai aqui juiz!', 'o ousado chegou !!! kkkkk', 'Quero agradecer aos torcedores do Santos por esses 9 anos incríveis',
+    'falta juiz!!!', 'To chegando com os refrii rapaziada !!', 'Ousadia e alegria!', 'cai cai balão',  'O pai ta ON!', 'é dificil ser eu', 'Com certeza eu vou evoluir daqui para frente.', 
+    'a fila anda, a catraca gira, se sentiu saudades VAI PRO FINAL DA FILA', 'rolando aqui novamente', 'O pai ta OFF!', 'to muito feliz aqui e não quero sair.', 'O Barcelona ensinou como se joga futebol.',
+    'lanche rapaziada', 'caidinho por você!', '#cheideFOME', 'cai !', 'deve ser o mel que mamãe me passou','cai !!!',  'Eu sei o que eu represento para o futebol.', 'deixo tudo com meu pai', 'só jogo bola',
+    'o ousado chegou !!! kkkk', 'olha eu no chão aqui!', 'cai.', 'Quero agradecer aos torcedores do Santos por esses 9 anos incríveis'])
+
+const players = [neymarJr, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
