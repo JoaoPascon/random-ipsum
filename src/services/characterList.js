@@ -28,6 +28,7 @@ import PadreMarceloPathImg from '../assets/images/padre_marcelo.jpg'
 import QueroCafePathImg from '../assets/images/quero_cafe.jpg'
 import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
 import NeymarJrImg from '../assets/images/neymar_jr.jpg'
+import EymaelImg from '../assets/images/eymael.jpg'
 import Character from '../Class/Character'
 
 
@@ -238,7 +239,7 @@ const robertoCarlos = new Character(25, 'Roberto Carlos', 'R. Carlos', RobertoCa
 'é preciso saber viver', 'saber viver', 'uma pedra no caminho você pode desviar.', 'além do horizonte existe um lugar', 
 'como é grande o meu amor por você!', 'Lady Laura, Lady Laura', 'Nossa Senhora me dê a mão', 'cuida do meu coração',
 'você meu amigo de fé', 'meu irmão camarada',  'amigo de tantos caminhos e tantas jornada!', 'quando eu estou aqui eu vivo esse momento lindo',
-'se chorei ou se sorri o importante e que emoções eu vivi', 'vivo por ela ninguém dúvida?', 'por que ela é tudo na minha vida!', 
+'se chorei ou se sorri o importante e que emoções eu vivi', 'são tantas emoções', 'india menina','vivo por ela ninguém dúvida?', 'por que ela é tudo na minha vida!', 
 'para derramar sobre o vermelho derramado', 'meus netos iram te perguntar em poucos anos sobre as baleians que navegam no oceano!'])
 
 const neymarJr = new Character(26,'Menino Ney', 'Neymar Jr', NeymarJrImg, 'O texto me derrubou aqui juiz',
@@ -249,7 +250,17 @@ const neymarJr = new Character(26,'Menino Ney', 'Neymar Jr', NeymarJrImg, 'O tex
     'lanche rapaziada', 'caidinho por você!', '#cheideFOME', 'cai !', 'deve ser o mel que mamãe me passou','cai !!!',  'Eu sei o que eu represento para o futebol.', 'deixo tudo com meu pai', 'só jogo bola',
     'o ousado chegou !!! kkkk', 'olha eu no chão aqui!', 'cai.', 'Quero agradecer aos torcedores do Santos por esses 9 anos incríveis'])
 
-const players = [neymarJr, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+const eymael = new Character(27,'Eymael  Democrata Cristão', 'Eymael', EymaelImg, 'Gerar um texto democatra e cristão',
+    ['ey ey Eymael.','um democrata cristão', 'lutando sempre pela família e pela nação!', 'para presidente é 27 Brasil!',
+    'tantas vitórias na constituição', 'com conquistas para o trabalhador', 'ey ey Eymael', 'seu compromisso sempre com nossa nação.',
+'para cumprir a constituição', 'democrata e cristão!', 'Brasil é Eymael.', 'tantas vitórias na constituição.',
+'ey ey Eymael', 'juntos pelo Brasil!', 'é 27 é Eymael.', 'lider que a nação precisa.', ' seu compromisso sempre com nossa nação',
+ 'para presidente é 27 Brasil é Eymael', 'para cumprir a constituição.', 'para cumprir a constituição.', 'vote 27 vote Eymael!', 'lutanto pela família e pela nação.',
+'ey, ey, ey, Brasil!', 'o Brasil é terra fértil é só plantar.', 'pela igualdade e a felicidade da nação', 'o que plantamos é o que vamos colher',
+'quero minha família feliz', 'falo de emprego e prosperidade', 'falo de educação, justiça e liberdade.', 'quero minha familia feliz!'])
+
+
+    const players = [eymael, neymarJr, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
     joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, 
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
