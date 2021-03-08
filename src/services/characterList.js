@@ -30,6 +30,7 @@ import JuarezTekpixPathImg from '../assets/images/juarez_da_tekpix.jpg'
 import NeymarJrImg from '../assets/images/neymar_jr.jpg'
 import EymaelImg from '../assets/images/eymael.jpg'
 import Kasino from '../assets/images/kasinao.jpg'
+import ThiagoNeves from '../assets/images/thiago_neves.jpg'
 import Character from '../Class/Character'
 
 
@@ -268,9 +269,17 @@ const kasinao = new Character(28, 'Vai Kasinão', 'Kasino', Kasino, 'Can get ove
 'I don\'t wanna say goodbye', 'played so many games with you!', 'now I need you by my side', 
 'go on and on and on', 'you know']);
 
+const thiagoNeves = new Character(29, 'Thiago Neves', 'T. Neves', ThiagoNeves, 'Gerar texto pelo amor de Deus né', 
+['fala, Zezé.', 'bom dia cara!', 'deixa eu te falar uma coisa', 'eu estou pensando aqui', 'sei que está difícil para vocês', 
+'arrumarem recursos', 'sei que está correndo atrás', 'mas estou falando por mim', ' não falei com ninguém do time',
+'vê se você não consegue pelo menos pagar esses outros 60%', 'falando do jogo de quinta-feira', 'aí não precisa nem ter bicho',
+'entendeu?', 'é uma motivação a mais pra gente.', 'acerta o salário aí!', 'aí você não precisa arrumar uma premiação',
+'é obrigação nossa ganhar esse jogo!', 'Tá louco!', 'e se a gente não ganhar do CSA, pelo amor de Deus né!', 
+'pelo amor de Deus né!', 'faz esse esforço para a gente aí', 'tenta acertar esses 60%.', 'até quinta-feira!',
+'fala Zezé', 'bom dia, cara', 'né!', 'esses 60%', 'só isso tava bom', 'tem que ganha do CSA']);
 
-    const players = [kasinao, eymael, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
-    joelSantana, casaGrande, anaMaria, etBilu, carroDaPamonha, neymarJr,
+    const players = [kasinao, thiagoNeves, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+    joelSantana, casaGrande, eymael, anaMaria, etBilu, carroDaPamonha, neymarJr,
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
 
