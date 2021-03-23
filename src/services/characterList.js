@@ -281,7 +281,7 @@ const thiagoNeves = new Character(29, 'Thiago Neves', 'T. Neves', ThiagoNeves, '
 
 const joaoKleber = new Character(30, 'João Kleber', 'J. Kleber', JoaoKleber, 'Para, para, para, gera esse texto!', 
 ['Para!', 'Para! Para! Para!', 'essa pegadinha é boa em', 'bem bolado', 'que isso bixo?', 'ele revela que é um ET!',
-'vishi agora ele apanha da mulher em!', 'o programa hoje ta sensacional', 'esse Ivo Orlanda é um cara de pau',
+'vishi agora ele apanha da mulher em!', 'o programa hoje ta sensacional', 'para', 'esse Ivo Orlanda é um cara de pau',
 'isso nunca foi mostrado antes na TV brasileira!', 'para!', 'ela tem um segredo para revelar para você!', 'você perdoa ela?',
 'é muito folgado esse Marquinho!', 'hoje o teste ta imperdivel', 'hoje o programa esta imperdivel', 'só as melhores pegadinhas!',
 'estamos em primeiro lugar de audiência Brasil!', 'você confia no seu namorado?', 'ele tem um segredo bombastico',
