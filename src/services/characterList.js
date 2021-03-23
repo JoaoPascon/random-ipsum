@@ -31,6 +31,7 @@ import NeymarJrImg from '../assets/images/neymar_jr.jpg'
 import EymaelImg from '../assets/images/eymael.jpg'
 import Kasino from '../assets/images/kasinao.jpg'
 import ThiagoNeves from '../assets/images/thiago_neves.jpg'
+import JoaoKleber from '../assets/images/joao_kleber.jpg'
 import Character from '../Class/Character'
 
 
@@ -158,7 +159,7 @@ const carroDaPamonha = new Character(4, 'Carro da Pamonha', 'Pamonheiro', CarroD
 'PAMONHA', 'OLHA AI OLHA AI FREGUESIA SÃO AS DELICIOSAS PAMONHAS', 'PAMONHAS FRESQUINHAS PAMONHAS CASEIRAS',
 'VENHAM PROVAR MINHA SENHORA É UMA DELICIA.']);
 
-const etBilu = new Character(16, 'Sandy & Junior', 'Sandy&Jr', SandyJuniorPathImg, 'Dig-dig-joy, dig-joy-popoy vem gera esse texto',
+const sandyJunior = new Character(16, 'Sandy & Junior', 'Sandy&Jr', SandyJuniorPathImg, 'Dig-dig-joy, dig-joy-popoy vem gera esse texto',
 ['se lua toca no mar ela pode nos tocar.', 'pra gente ser feliz tem que cultivar as nossa amizades.', 'vamo pulá, vamo pulá, vamo pulá, vamo pulá', 
 'o que se foi fazer no mato Maria Chiquinha?', 'o que é imortal' , 'não morre no final', 'esse turu turu turu aqui dentro.', 
  'se a lenda dessa paixão faz sorrir ou faz chorar', 'o coração é quem sabe?', 'era uma vez um lugarzinho no meito do nada.',
@@ -278,8 +279,18 @@ const thiagoNeves = new Character(29, 'Thiago Neves', 'T. Neves', ThiagoNeves, '
 'pelo amor de Deus né!', 'faz esse esforço para a gente aí', 'tenta acertar esses 60%.', 'até quinta-feira!',
 'fala Zezé', 'bom dia, cara', 'né!', 'esses 60%', 'só isso tava bom', 'tem que ganha do CSA']);
 
-    const players = [kasinao, thiagoNeves, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
-    joelSantana, casaGrande, eymael, anaMaria, etBilu, carroDaPamonha, neymarJr,
+const joaoKleber = new Character(30, 'João Kleber', 'J. Kleber', JoaoKleber, 'Para, para, para, gera esse texto!', 
+['Para!', 'Para! Para! Para!', 'essa pegadinha é boa em', 'bem bolado', 'que isso bixo?', 'ele revela que é um ET!',
+'vishi agora ele apanha da mulher em!', 'o programa hoje ta sensacional', 'esse Ivo Orlanda é um cara de pau',
+'isso nunca foi mostrado antes na TV brasileira!', 'para!', 'ela tem um segredo para revelar para você!', 'você perdoa ela?',
+'é muito folgado esse Marquinho!', 'hoje o teste ta imperdivel', 'hoje o programa esta imperdivel', 'só as melhores pegadinhas!',
+'estamos em primeiro lugar de audiência Brasil!', 'você confia no seu namorado?', 'ele tem um segredo bombastico',
+'para para, volto ja!', 'esse pegadinha ta muito boa!', 'você vai revelar seu segredo?', 'ela esta gravida de um pokemon!',
+'você acredita nela?', 'o marido esta revelando que não gosta da comida dela!', 'ele vai revelar que é careca!', 'ele diz que vai viajar para marte!',
+'ela disse que se prostitue para comprar lanche!', 'isso é sucesso de audiência!', 'qual é o seu segredo?', 'não fala, isso só amanhã']);
+
+    const players = [joaoKleber, kasinao, thiagoNeves, padreMarcelo, queroCafe, juarezTekPix, robertoCarlos, faustoSilva, chefJacquin, craqueNeto, agostinhoCarrara, 
+    joelSantana, casaGrande, eymael, anaMaria, sandyJunior, carroDaPamonha, neymarJr,
     jogadorDeLol, jaskieBardo, joseDatena, galvaoBueno, parequeQuepioro,
     rickTratofeito, silvioLuiz, amigoDollynho, williamBonner, yudiPlaystation, irmaosAObra];
 
